@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+</head>
+<body>
+  <div class="container">
+    <div class="container__head">
+      <h2>
+        <i class="fa-solid fa-quote-left i_left"></i>
+        Random Quote Generator
+        <i class="fa-solid fa-quote-right i_right"></i>
+      </h2>
+    </div>
+    <div class="container__body">
+      <div class="quote__div">
+        <p id="quote" class="quote">
+          Everything that exists is in a manner the seed of that which will be.
+        </p>
+      </div>
+      <div class="author__div">
+        <p>
+          <span>-</span>
+          <span id="authorName" class="authorName">Marcus Aurelius</span>
+        </p>
+      </div>
+    </div>
+    <div class="container__footer">
+      <div class="left">
+        <div title="Listen" id="sound" class="buttons">
+          <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div id="copy" title="Copy Text to Clipboard" class="buttons">
+          <i class="fa-solid fa-copy"></i>
+        </div>
+      </div>
+      <div class="right">
+        <button title="Next Quote" id="getQuote">Next Quote</button>
+      </div>
+    </div>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
